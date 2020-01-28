@@ -75,22 +75,22 @@ public class GoogleSearchTest {
 //        n.forward();
 //        n.refresh();
 //    }
-    @Test
-    public void testFacebookSignup(){
-        driver.get("http://www.facebook.com");
-        driver.findElement(By.id("u_0_f")).sendKeys("vitalie");
-        driver.findElement(By.name("lastname")).sendKeys("smentanca");
-        driver.findElement(By.id("u_0_k")).sendKeys("vitaliesmentanca@yahh.com");
-        driver.findElement(By.id("u_0_p")).sendKeys("1234");
-        driver.findElement(By.name("birthday_month")).sendKeys("May");
-        driver.findElement(By.name("birthday_month")).sendKeys("5");
-//        driver.findElement(By.id("u_0_7")).click();
-        driver.findElements(By.name("sex")).get(1).click();
-        driver.findElement(By.id("u_0_w")).click();
-//        new Select(driver.findElement(By.name("birthday_month"))).selectByIndex(3);//primul al doilea din grupa
-        
-        
-        
-    }
+//  @Test
+//    public void testFacebookSignup(){
+//        driver.get("http://www.facebook.com");
+//        driver.findElement(By.id("u_0_f")).sendKeys("vitalie");
+//        driver.findElement(By.name("lastname")).sendKeys("smentanca");
+//        driver.findElement(By.id("u_0_k")).sendKeys("vitaliesmentanca@yahh.com");
+//        driver.findElement(By.id("u_0_p")).sendKeys("1234");
+//        driver.findElement(By.name("birthday_month")).sendKeys("May");
+//        driver.findElement(By.name("birthday_month")).sendKeys("5");
+////        driver.findElement(By.id("u_0_7")).click();
+//        driver.findElements(By.name("sex")).get(1).click();
+//        driver.findElement(By.id("u_0_w")).click();
+////        new Select(driver.findElement(By.name("birthday_month"))).selectByIndex(3);//primul al doilea din grupa
+//        
+//        
+//        
+//    }
     
 }
